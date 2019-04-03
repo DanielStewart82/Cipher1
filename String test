@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void function(char *x);
+
+int main()
+{
+
+    char string[]= "AAAA";
+    function(string);
+    
+
+    return 0;
+}
+
+void function(char *x){
+    int i;
+    for(i=0; i<=3; i++)
+    {
+        printf("%c\n",x[i]-1);
+    }
+    
+}
